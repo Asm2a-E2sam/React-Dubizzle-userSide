@@ -1,0 +1,12 @@
+.olx-color {
+    color: #e00000;
+  }
+  .olx-color:hover {
+    color: #e00000 !important;
+  }
+  .angle_div {
+    transition: 500ms;
+  }
+  .angle_a:hover .angle_div {
+    margin-left: 0.8rem !important;
+  }
