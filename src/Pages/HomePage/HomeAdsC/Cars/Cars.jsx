@@ -15,7 +15,7 @@ const Cars = () => {
             more <FaAngleRight /></Link>
         </div>
         <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" style={{height: '10rem'}} src="../../../../../public/images/img/car1.jpeg" />
+      <Card.Img variant="top" style={{height: '10rem'}} src="../../../../../public/images/imgCardHome/car1.jpeg" />
       <Card.Body>
         <div className='d-flex  justify-content-between'>
         <Card.Title className='olx-color'>EGP</Card.Title>

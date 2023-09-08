@@ -14,7 +14,7 @@ const Jobs = () => {
             more <FaAngleRight /></Link>
         </div>
         <Card style={{ width: '18rem' }}>
-      <Card.Img style={{height: '10rem'}} variant="top" src="../../../../../public/images/img/job1.jpeg" />
+      <Card.Img style={{height: '10rem'}} variant="top" src="../../../../../public/images/imgCardHome/job1.jpeg" />
       <Card.Body>
         <div className='d-flex  justify-content-between'>
         <Card.Title className='olx-color'>EGP</Card.Title>

@@ -3,6 +3,7 @@ import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import AppLayout from './AppLayout';
 import HomePage from './Pages/HomePage/HomePage';
+import SearchPage from './Pages/SearchPage/SearchPage';
 
 const router = createBrowserRouter([
   {
@@ -10,6 +11,7 @@ const router = createBrowserRouter([
     element: <AppLayout />,
     children: [
       { index: true, element: <HomePage /> },
+      {path:"/search", element: <SearchPage/>}
     ]
   }
 ])

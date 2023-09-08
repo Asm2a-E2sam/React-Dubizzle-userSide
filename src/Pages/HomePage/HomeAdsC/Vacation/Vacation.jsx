@@ -14,7 +14,7 @@ const Vacation = () => {
             more <FaAngleRight /></Link>
         </div>
         <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" style={{height: '10rem'}}className='img' src="../../../../../public/images/img/vacation1.jpeg" />
+      <Card.Img variant="top" style={{height: '10rem'}}className='img' src="../../../../../public/images/imgCardHome/vacation1.jpeg" />
       <Card.Body>
         <div className='d-flex  justify-content-between'>
         <Card.Title className='olx-color'>EGP</Card.Title>

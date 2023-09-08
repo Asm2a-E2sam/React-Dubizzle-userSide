@@ -1,0 +1,31 @@
+.line{
+    line-height: 2rem;
+    }
+/* ////////////////////////////////////////////////////////////////////////////////// */
+.font_size{
+font-size: small !important;
+color: #464c55 !important;
+}
+#Save_search{
+    background-color: #ffe2e2 !important;
+  }
+  .olx-color{
+    color: #e00000 !important;
+  }
+  #cards{
+    line-height: 1rem !important;
+  }
+  .cllbtn{
+    background-color: #e00000 !important;
+  }
+  .cllbtn:hover{
+    background-color: #af0000 !important;
+  }
+
+  .chatbtn:hover{
+    background-color: #ffe2e2 !important;
+  }
+  .btn_active:active{
+    background-color: #f8bebe !important;
+    border: none !important;
+  }

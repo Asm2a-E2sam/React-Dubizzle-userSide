@@ -13,7 +13,7 @@ const Mobile = () => {
             more <FaAngleRight /></Link>
         </div>
         <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" style={{height: '10rem'}} src="../../../../../public/images/img/phone1.jpeg" />
+      <Card.Img variant="top" style={{height: '10rem'}} src="../../../../../public/images/imgCardHome/phone1.jpeg" />
       <Card.Body>
         <div className='d-flex  justify-content-between'>
         <Card.Title className='olx-color'>EGP</Card.Title>
