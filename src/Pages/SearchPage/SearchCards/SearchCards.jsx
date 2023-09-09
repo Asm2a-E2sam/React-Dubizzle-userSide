@@ -9,21 +9,20 @@ const SearchCards = () => {
         <div>
             <div className='row py-4 border-bottom d-flex' >
                 <div className='col-9 d-flex'>
-                    <p className='me-1'>Condition</p>
+                    <p className='me-2 pt-2'>Condition</p>
                     <ButtonGroup aria-label="Basic example">
-                        <Button variant={false} className='bg-secondary bg-opacity-10 text-dark btn_active'>all</Button>
-                        <Button variant={false} className='bg-secondary bg-opacity-10 text-dark btn_active'>new</Button>
-                        <Button variant={false} className='bg-secondary bg-opacity-10 text-dark btn_active'>used</Button>
+                        <Button variant={false} className='bg-secondary bg-opacity-10 text-dark btn_active px-3'>all</Button>
+                        <Button variant={false} className='bg-secondary bg-opacity-10 text-dark btn_active px-3'>new</Button>
+                        <Button variant={false} className='bg-secondary bg-opacity-10 text-dark btn_active px-3'>used</Button>
                     </ButtonGroup>
                 </div>
-                {/* <div className=''></div> */}
                 <div className='col-3 '>
 
-            <div className='d-flex'>
-                <div className=" fw-bold">SORT BY:</div>
-                <div className='opacity-75'> Newly listed</div>
-                {/* <LiaAngleRightSolid/> */}
-                </div>
+                    <div className='d-flex'>
+                        <div className=" fw-bold">SORT BY:</div>
+                        <div className='opacity-75'> Newly listed</div>
+                        {/* <LiaAngleRightSolid/> */}
+                    </div>
 
                 </div>
             </div>
@@ -38,7 +37,7 @@ const SearchCards = () => {
                         <div className="card-body">
                             <div className="d-flex justify-content-between card-title ">
                                 <h5 className="fw-bold fs-4 olx-color">EGP 270,000</h5>
-                                <BsSuitHeart />
+                                <BsSuitHeart className='fs-4' style={{cursor:'pointer'}}/>
                             </div>
                             <p className="card-text">تيجو ٧ بيز لاين السيارة الافضل في فئتها قيمة مقابل سعر بمعني الكلمة</p>
                             <p className="card-text"><small className="text-body-secondary"> 90000 to 999999 km. 2019</small></p>

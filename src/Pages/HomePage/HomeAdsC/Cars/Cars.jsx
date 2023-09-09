@@ -1,11 +1,23 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { FaAngleRight } from 'react-icons/fa';
 import { BsSuitHeart } from 'react-icons/bs';
 import { PiCompassBold } from 'react-icons/pi';
 import { Link } from 'react-router-dom';
 import Card from 'react-bootstrap/Card';
+import axiosInstanceProducts from '../../../../axiosConfig/DubizzleDB';
 
 const Cars = () => {
+const [ads,setAds] = useState([])
+
+useEffect(() => {
+  const getall=async () =>{
+    const res=await axiosInstanceProducts.get('/products')
+    console.log(res.data);
+    setAds(res.data)
+  }
+  getall()
+}, []);
+
     return (
         <div>
             {/* Cars for Sale */}
@@ -29,7 +41,6 @@ const Cars = () => {
         <div className='opacity-75'>time</div>
       </Card.Body>
     </Card>
-    {/* /////////////////////////////////////////////////////////////////////////// */}
         </div>
     );
 }
