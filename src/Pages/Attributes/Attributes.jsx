@@ -2,12 +2,15 @@ import { useState, useEffect } from 'react';
 import './Attributes.css';
 import { Container, Navbar } from 'react-bootstrap';
 import { AiOutlineArrowLeft } from 'react-icons/ai';
+import { MdArrowForwardIos } from 'react-icons/md';
+import { NavLink, useNavigate } from 'react-router-dom';
+import { Helmet } from 'react-helmet-async';
 
 export default function Attributes() {
   const [data, setData] = useState({});
   const [selectedCategory, setSelectedCategory] = useState(null);
   const [subSubCategories, setSubSubCategories] = useState(null);
-
+  const navigate = useNavigate();
   useEffect(() => {
     fetch('categories.json')
       .then((response) => {
@@ -54,7 +57,7 @@ export default function Attributes() {
         <p style={{ marginBottom: '0', fontSize: 'small' }} className="me-auto">
           {cat}
         </p>
-        <img src="svg/arrow-right.svg" height="14px" className="pe-1" />
+        <MdArrowForwardIos className="fs-5 pe-1" />
       </div>
     ));
   };
@@ -71,13 +74,16 @@ export default function Attributes() {
           onClick={() => showSub2Categories(cat)}
         >
           {typeof items[cat] === 'string' ? (
-            <a className="text-decoration-none text-black" style={{ fontSize: 'small', paddingLeft: '20px' }}>
+            <NavLink to="/post"  className="text-decoration-none text-black" style={{ fontSize: 'small', paddingLeft: '20px' }} >
               {items[cat]}
-            </a>
+            </NavLink>
+            // <a className="text-decoration-none text-black" style={{ fontSize: 'small', paddingLeft: '20px' }}>
+            //   {items[cat]}
+            // </a>
           ) : (
             <>
               <div style={{ fontSize: 'small', paddingLeft: '20px' }}>{items[cat].title}</div>
-              <img src="./svg/arrow-right.svg" height="14px" className="pe-1" />
+              <MdArrowForwardIos className="pe-1 fs-5" />
             </>
           )}
         </div>
@@ -96,9 +102,9 @@ export default function Attributes() {
           role='button'
           onClick={() => showSub2Categories(subSubCategory)}
         >
-          <a className="text-decoration-none text-black" style={{ fontSize: 'small', paddingLeft: '20px' }}>
+          <NavLink to="/post"  className="text-decoration-none text-black" style={{ fontSize: 'small', paddingLeft: '20px' }} >
             {subSubCategory}
-          </a>
+          </NavLink>
         </div>
       ));
     }
@@ -107,15 +113,18 @@ export default function Attributes() {
   
   return (
     <>
+     <Helmet>
+        <title>choose a category</title>
+      </Helmet>
       <Container fluid className="p-0">
       <Navbar expand="lg" className="bg-body-tertiary pt-0">
         <Container fluid>
           <Navbar.Brand href="#home">
+          <NavLink to="/" className="text-decoration-none text-dark">
             <AiOutlineArrowLeft className="fs-4 mt-3 me-2" />
-            <img
-              src="https://www.dubizzle.com.eg/assets/logo_noinline.feed3f3b6aa25ca2e3207a2fcdcc0b69.svg"
-              className="dubizzle"
-            />
+          <img src="https://www.dubizzle.com.eg/assets/logo_noinline.feed3f3b6aa25ca2e3207a2fcdcc0b69.svg"
+              className="dubizzle" />
+            </NavLink> 
           </Navbar.Brand>
         </Container>
       </Navbar>

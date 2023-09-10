@@ -1,16 +1,45 @@
+import { RouterProvider, createBrowserRouter } from 'react-router-dom';
+import { HelmetProvider, Helmet } from "react-helmet-async";
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
-// import Post from './Components/Post/Post';
-// import Attributes from './Components/Attributes/Attributes';
-import Login from './Components/Login/Login';
+import AppLayout from './AppLayout';
+import HomePage from './Pages/HomePage/HomePage';
+import SearchPage from './Pages/SearchPage/SearchPage';
+import SingleProductPage from './Pages/SingleProductPage/SingleProductPage';
+// import NavBar from "./Components/Navbar/Navbar";
+import Attributes from './Pages/Attributes/Attributes';
+import Post from './Pages/Post/Post';
+import SellLayout from './SellLayout';
 
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <AppLayout />,
+    children: [
+      { index: true, element: <HomePage /> },
+      {path:"/search", element: <SearchPage/>},
+      { path: "/singlePage", element: <SingleProductPage /> },
+    ]
+  },
+  {
+    // path: "/",
+    element: <SellLayout />,
+    children: [
+      {path:"/attributes",element: <Attributes/>},
+      {path:"/post",element: <Post/>},
+    ]
+  }
+])
 function App() {
   return (
-    <>
-      {/* <Attributes/> */}
-      <Login/>
-    </>
+    <HelmetProvider>
+      <RouterProvider router={router} />
+      <Helmet>
+        <title>Dubizzle</title>
+      </Helmet>
+    </HelmetProvider>
   )
+
 }
 
-export default App
+export default App;

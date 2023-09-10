@@ -1,8 +1,8 @@
 import React from "react";
 import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
-import {MdEmail} from "react-icons/md";
-import {BsFillTelephoneFill} from "react-icons/bs"
+import { MdEmail } from "react-icons/md";
+import { BsFillTelephoneFill } from "react-icons/bs";
 import "./Login.css";
 
 function MyVerticallyCenteredModal(props) {
@@ -26,21 +26,23 @@ function MyVerticallyCenteredModal(props) {
               The trusted community of buyers and sellers.
             </p>
             <button className="btn-login">
-                <img src="./svg/google.svg" alt="" className="me-2"/>
-                 Continue with Google</button>
+              <img src="./svg/google.svg" alt="" className="me-2" />
+              Continue with Google
+            </button>
             <button className="btn-login">
-                <img src="./svg/facebook.svg" alt="" className="me-2"/>
-                 Continue with Facebook</button>
-            <button className="btn-login"><MdEmail className="me-2"/> Continue with Email</button>
-            <button className="btn-login"><BsFillTelephoneFill className="me-2"/> Continue with Phone</button>
-            <p className="sp1 mt-4 mb-0">
-              By continuing, you are accepting
-            </p>
+              <img src="./svg/facebook.svg" alt="" className="me-2" />
+              Continue with Facebook
+            </button>
+            <button className="btn-login">
+              <MdEmail className="me-2" /> Continue with Email
+            </button>
+            <button className="btn-login">
+              <BsFillTelephoneFill className="me-2" /> Continue with Phone
+            </button>
+            <p className="sp1 mt-4 mb-0">By continuing, you are accepting</p>
             <p className="sp1">
-            <span>Dubizzle Terms</span> of use and <span>Privacy Policy</span>
-              
+              <span>Dubizzle Terms</span> of use and <span>Privacy Policy</span>
             </p>
-
           </Modal.Body>
         </div>
       </div>
@@ -53,9 +55,14 @@ function Login() {
 
   return (
     <>
-      <Button variant="white" onClick={() => setModalShow(true)}>
-        Login
-      </Button>
+      <button
+        className="nav-link active fw-bold fs-5 text-center"
+        aria-current="page"
+        href="#"
+        onClick={() => setModalShow(true)}
+      >
+        <span className="nav-link active fw-bold fs-5">Login</span>
+      </button>
 
       <MyVerticallyCenteredModal
         show={modalShow}
