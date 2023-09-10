@@ -118,11 +118,12 @@
 
 .secondHeader,
 .firstHeader,
-.thirdHeader,
 .foorter {
   margin: 0 50px !important;
 }
-
+.thirdHeader{
+  margin: 0 40px !important;
+}
 .thirdHeader {
   position: relative;
   top: 140px;

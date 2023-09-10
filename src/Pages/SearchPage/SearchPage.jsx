@@ -5,13 +5,15 @@ import SearchSideBar from './SearchSideBar/SearchSideBar';
 import './SearchPage.css'
 const SearchPage = () => {
     return (
-        <div className='row container'>
+        <div className='container my-5'>
+            <div className='row d-flex'>
             <div className='col-3'>
                 <SearchSideBar />
             </div>
             <div className='col-7'>
                 <SearchSlider />
                 <SearchCards />
+            </div>
             </div>
         </div>
     );

@@ -22,14 +22,14 @@ function NavBar() {
             />
           </Navbar.Brand>
           <div className="my-auto mb-0 me-3 topHeader ">
-            <span className="properitySpan rounded-circle topHeaderImg">
+            <span className="properitySpan rounded-circle topHeaderImg mx-3">
               <img
                 src="https://www.dubizzle.com.eg/assets/property-for-rent_noinline.afd1b8bf81720cc538aba324a684f145.svg"
                 height={"20rem"}
                 className=" "
               />
             </span>
-            <span className="fw-bold px-2 topHeaderText">Properties</span>
+            <span className="fw-bold  topHeaderText">Properties</span>
           </div>
         </div>
         {/* second header */}
@@ -139,7 +139,7 @@ function NavBar() {
         </div>
       </div>
       {/* Categories */}
-      <div className="row px-5 py-2 thirdHeader fw-bold text-end justify-content-between">
+      <div className="row px-5 py-2 thirdHeader fw-bold text-end d-none d-lg-block">
         <div className="row d-flex justify-content-between">
           {/* {"1 Cat"} */}
           <div className="col-1 text-start">
