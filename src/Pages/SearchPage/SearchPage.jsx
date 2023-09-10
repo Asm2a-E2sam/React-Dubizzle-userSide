@@ -5,6 +5,10 @@ import SearchSideBar from './SearchSideBar/SearchSideBar';
 import './SearchPage.css'
 const SearchPage = () => {
     return (
+        <>
+             <Helmet>
+        <title>search</title>
+      </Helmet>
         <div className='container my-5'>
             <div className='row d-flex'>
             <div className='col-3'>
@@ -16,6 +20,7 @@ const SearchPage = () => {
             </div>
             </div>
         </div>
+        </>
     );
 }
 

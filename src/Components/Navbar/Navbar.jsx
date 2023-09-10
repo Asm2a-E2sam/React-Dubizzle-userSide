@@ -7,6 +7,7 @@ import { MdArrowForwardIos } from "react-icons/md";
 import { LuShapes } from "react-icons/lu";
 
 import { Navbar, Nav, Form, Button, Col } from "react-bootstrap";
+import { NavLink } from "react-router-dom";
 
 function NavBar() {
   return (
@@ -129,9 +130,11 @@ function NavBar() {
               </Nav.Item>
               {/* Sell */}
               <Nav.Item className=" col-lg-1">
-                <button className="btn cllbtn text-light fw-bold fs-4 px-5" href="#">
-                  <span className="fs-6">Sell</span>
+              <NavLink className="text-decoration-none text-light fs-6" to="/attributes">
+                <button className="btn cllbtn text-light fw-bold fs-5 px-5" href="#">
+                 Sell
                 </button>
+                </NavLink> 
               </Nav.Item>
               {/* </Nav> */}
             </Navbar.Collapse>

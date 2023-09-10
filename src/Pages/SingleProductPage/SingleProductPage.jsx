@@ -4,6 +4,7 @@ import $ from 'jquery';
 import { AiOutlineHeart } from "react-icons/ai";
 import { BsChevronCompactRight, BsShare , BsGeoAlt , BsFlag , BsChevronCompactLeft , BsTelephone } from "react-icons/bs";
 import { IoChatbubblesOutline } from "react-icons/io5";
+import { Helmet } from 'react-helmet-async';
 
 export default function SingleProductPage() {
     useEffect(() => {
@@ -87,6 +88,9 @@ export default function SingleProductPage() {
 
     return (
         <>
+         <Helmet>
+        <title>singlePage</title>
+      </Helmet>
             <div className="container mt-5">
                 <div className="row">
                     <div className="col-xxl-8">
