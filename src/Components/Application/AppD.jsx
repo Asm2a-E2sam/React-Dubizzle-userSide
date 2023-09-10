@@ -10,7 +10,7 @@ const AppD = () => {
               <p className="fs-4 fw-bold pt-4 pe-5">
                 Find amazing deals on the go
                 <span className="d-block text-danger">
-                  Download the app now!
+                  Download the app now! 
                 </span>
               </p>
             </div>
