@@ -10,12 +10,12 @@ const SearchPage = () => {
              <Helmet>
         <title>search</title>
       </Helmet>
-        <div className='container my-5'>
+        <div className='container my-4'>
             <div className='row d-flex'>
             <div className='col-3'>
                 <SearchSideBar />
             </div>
-            <div className='col-7'>
+            <div className='col-9'>
                 <SearchSlider />
                 <SearchCards />
             </div>
