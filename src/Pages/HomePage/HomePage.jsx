@@ -1,4 +1,3 @@
-// import React from 'react';
 import HomeSlider from './HomeSliderC/HomeSlider';
 import PopularCategories from './PopularCategoriesC/PopularCategories';
 import HomeAds from './HomeAdsC/HomeAds';

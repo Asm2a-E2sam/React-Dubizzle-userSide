@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Link } from 'react-router-dom';
 import { FiMapPin } from 'react-icons/fi';
 
@@ -416,12 +416,6 @@ const SearchSideBar = () => {
           <input type="checkbox" className="checkboxMargin form-check-input"/>
           <label htmlFor="">0 to 9999</label>
         </div>
-
-        {/* <div class="mb-3 ms-5">
-          <input type="checkbox" class="form-check-input"/>
-          <label for="">0 to 9999</label>
-        </div> */}
-
         <div className="mb-3 ms-5">
           <input type="checkbox" className="checkboxMargin form-check-input"/>
           <label htmlFor=""> 100000 to 119999</label>

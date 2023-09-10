@@ -6,7 +6,6 @@ import AppLayout from './AppLayout';
 import HomePage from './Pages/HomePage/HomePage';
 import SearchPage from './Pages/SearchPage/SearchPage';
 import SingleProductPage from './Pages/SingleProductPage/SingleProductPage';
-// import NavBar from "./Components/Navbar/Navbar";
 import Attributes from './Pages/Attributes/Attributes';
 import Post from './Pages/Post/Post';
 import SellLayout from './SellLayout';

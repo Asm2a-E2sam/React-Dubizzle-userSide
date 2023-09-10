@@ -1,4 +1,3 @@
-// import React from 'react';
 import { BsInstagram } from "react-icons/bs";
 import { BiLogoFacebookCircle } from "react-icons/bi";
 import { FaTwitter } from "react-icons/fa";

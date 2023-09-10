@@ -1,7 +1,6 @@
-import React from 'react';
+
 import { BsSuitHeart } from 'react-icons/bs';
 import { Link } from 'react-router-dom';
-import Carousel from 'react-bootstrap/Carousel';
 
 const SearchSlider = () => {
     return (

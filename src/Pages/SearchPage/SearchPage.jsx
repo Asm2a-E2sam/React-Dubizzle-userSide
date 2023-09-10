@@ -1,4 +1,4 @@
-// import React from 'react';
+
 import SearchSlider from './SearchSlider/SearchSlider';
 import SearchCards from './SearchCards/SearchCards';
 import SearchSideBar from './SearchSideBar/SearchSideBar';

@@ -1,4 +1,4 @@
-// import React from 'react';
+
 import './PopularCategories.css'
 import { FaAngleRight } from 'react-icons/fa';
 import { Link } from 'react-router-dom';

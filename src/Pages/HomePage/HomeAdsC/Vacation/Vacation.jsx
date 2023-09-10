@@ -1,4 +1,4 @@
-// import React from 'react';
+// 
 import { FaAngleRight, FaBed, FaTable } from 'react-icons/fa';
 import { BsSuitHeart } from 'react-icons/bs';
 import { BiBath } from 'react-icons/bi';

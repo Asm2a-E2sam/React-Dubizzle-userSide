@@ -1,4 +1,3 @@
-// import React from 'react';
 import { FaAngleRight } from 'react-icons/fa';
 import { BsSuitHeart } from 'react-icons/bs';
 import { Link } from 'react-router-dom';

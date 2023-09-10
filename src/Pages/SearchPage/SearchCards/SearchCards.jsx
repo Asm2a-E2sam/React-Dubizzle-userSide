@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { BsSuitHeart } from 'react-icons/bs';
 // import { LiaAngleRightSolid } from 'react-icons/lia';
 import Button from 'react-bootstrap/Button';
