@@ -8,13 +8,13 @@ const Jobs = () => {
     return (
         <div>
               {/* Jobs */}
-        <div class="col-12 row my-3">
-          <div class="col-6 col-md-8 col-lg-10 fs-5 fw-bold">Jobs</div>
-          <Link class="col-6 col-md-4 col-lg-2 olx-color fw-bold text-decoration-none ps-5">view
+        <div className="col-12 row my-3">
+          <div className="col-6 col-md-8 col-lg-10 fs-5 fw-bold">Jobs</div>
+          <Link className="col-6 col-md-4 col-lg-2 olx-color fw-bold text-decoration-none ps-5">view
             more <FaAngleRight /></Link>
         </div>
         <Card style={{ width: '18rem' }}>
-      <Card.Img style={{height: '10rem'}} variant="top" src="../../../../../public/images/imgCardHome/job1.jpeg" />
+      <Card.Img style={{height: '10rem'}} variant="top" src="images/imgCardHome/job1.jpeg" />
       <Card.Body>
         <div className='d-flex  justify-content-between'>
         <Card.Title className='olx-color'>EGP</Card.Title>
