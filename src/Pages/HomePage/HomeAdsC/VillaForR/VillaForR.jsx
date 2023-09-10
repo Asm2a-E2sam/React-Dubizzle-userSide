@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';
 import { FaAngleRight, FaBed, FaTable } from 'react-icons/fa';
 import { BsSuitHeart } from 'react-icons/bs';
 import { BiBath } from 'react-icons/bi';
@@ -8,13 +8,13 @@ const VillaForR = () => {
     return (
         <div>
               {/* Villas For Rent */}
-        <div class="col-12 row my-3">
-          <div class="col-6 col-md-8 col-lg-10 fs-5 fw-bold">Villas For Rent</div>
-          <Link class="col-6 col-md-4 col-lg-2 olx-color fw-bold text-decoration-none ps-5">view
+        <div className="col-12 row my-3">
+          <div className="col-6 col-md-8 col-lg-10 fs-5 fw-bold">Villas For Rent</div>
+          <Link className="col-6 col-md-4 col-lg-2 olx-color fw-bold text-decoration-none ps-5">view
             more <FaAngleRight /></Link>
         </div>
         <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" style={{height: '10rem'}} src="../../../../../public/images/imgCardHome/card1.jpeg" />
+      <Card.Img variant="top" style={{height: '10rem'}} src="./images/imgCardHome/card1.jpeg" />
       <Card.Body>
         <div className='d-flex  justify-content-between'>
         <Card.Title className='olx-color'>EGP</Card.Title>

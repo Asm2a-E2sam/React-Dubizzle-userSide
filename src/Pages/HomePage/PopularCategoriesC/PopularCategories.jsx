@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';
 import './PopularCategories.css'
 import { FaAngleRight } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
@@ -10,7 +10,7 @@ const PopularCategories = () => {
           <div className="col-12 fs-4 fw-bold my-3">Popular Categories</div>
           <div className="col-6 col-md-6 col-lg-3 d-flex flex-column">
             <div className="fw-bold fs-6 mb-2">
-              <img src="../../../../public/images/vehicles.svg" alt="" className='me-1' width={16} /> Vehicles </div>
+              <img src="./images/vehicles.svg" alt="" className='me-1' width={16} /> Vehicles </div>
             <Link to="/search" className="mb-2 text-decoration-none text-black ancor">Cars for Sale</Link>
             <Link className="mb-2 text-decoration-none text-black ancor">Cars for Rent</Link>
             <Link className="d-flex fw-bold fs-6 olx-color mb-3 angle_a text-decoration-none"><div>All in Vehicles</div>
@@ -18,7 +18,7 @@ const PopularCategories = () => {
           </div>
           <div className="col-6 col-md-6 col-lg-3 d-flex flex-column">
             <div className="fw-bold fs-6 mb-2">
-              <img src="../../../../public/images/property.svg" alt="" className='me-1' width={16} /> Properties </div>
+              <img src="./images/property.svg" alt="" className='me-1' width={16} /> Properties </div>
             <Link className="mb-2 text-decoration-none text-black ancor">Apartments & Duplex for Sale</Link>
             <Link className="mb-2 text-decoration-none text-black ancor">Apartments & Duplex for Rent</Link>
             <Link className="d-flex fw-bold fs-6 olx-color mb-3 angle_a text-decoration-none">
@@ -28,7 +28,7 @@ const PopularCategories = () => {
           </div>
           <div className="col-6 col-md-6 col-lg-3 d-flex flex-column">
             <div className="fw-bold fs-6 mb-2">
-              <img src="../../../../public/images/mobiles.svg" alt="" className='me-1' width={16} /> Mobiles & Tablets </div>
+              <img src="./images/mobiles.svg" alt="" className='me-1' width={16} /> Mobiles & Tablets </div>
             <Link className="mb-2 text-decoration-none text-black ancor">Mobile Phones</Link>
             <Link className="mb-2 text-decoration-none text-black ancor">Tablets</Link>
             <Link className="d-flex fw-bold fs-6 olx-color mb-3 angle_a text-decoration-none">
@@ -38,7 +38,7 @@ const PopularCategories = () => {
           </div>
           <div className="col-6 col-md-6 col-lg-3 d-flex flex-column">
             <div className="fw-bold fs-6 mb-2">
-              <img src="../../../../public/images/jobs.svg" alt="" className='me-1' width={16} /> Jobs
+              <img src="./images/jobs.svg" alt="" className='me-1' width={16} /> Jobs
             </div>
             <Link className="mb-2 text-decoration-none text-black ancor">Accounting, Finance & Banking</Link>
             <Link className="mb-2 text-decoration-none text-black ancor">Engineering</Link>
@@ -49,7 +49,7 @@ const PopularCategories = () => {
           </div>
           <div className="col-6 col-md-6 col-lg-3 d-flex flex-column">
             <div className="fw-bold fs-6 mb-2">
-              <img src="../../../../public/images/electronics.svg" alt="" className='me-1' width={16} /> Electronics & Appliances </div>
+              <img src="./images/electronics.svg" alt="" className='me-1' width={16} /> Electronics & Appliances </div>
             <Link className="mb-2 text-decoration-none text-black ancor">TV - Audio - Video</Link>
             <Link className="mb-2 text-decoration-none text-black ancor">Computers - Accessories</Link>
             <Link className="d-flex fw-bold fs-6 olx-color mb-3 angle_a text-decoration-none">
@@ -59,7 +59,7 @@ const PopularCategories = () => {
           </div>
           <div className="col-6 col-md-6 col-lg-3 d-flex flex-column">
             <div className="fw-bold fs-6 mb-2">
-              <img src="../../../../public/images/furniture.svg" alt="" className='me-1' width={16} /> Furniture & Decor
+              <img src="./images/furniture.svg" alt="" className='me-1' width={16} /> Furniture & Decor
             </div>
             <Link className="mb-2 text-decoration-none text-black ancor">Bathroom</Link>
             <Link className="mb-2 text-decoration-none text-black ancor">Bedroom</Link>
@@ -70,7 +70,7 @@ const PopularCategories = () => {
           </div>
           <div className="col-6 col-md-6 col-lg-3 d-flex flex-column">
             <div className="fw-bold fs-6 mb-2">
-              <img src="../../../../public/images/fashion.svg" alt="" className='me-1' width={16} /> Fashion & Beauty </div>
+              <img src="./images/fashion.svg" alt="" className='me-1' width={16} /> Fashion & Beauty </div>
             <Link className="mb-2 text-decoration-none text-black ancor">Women’s Clothing</Link>
             <Link className="mb-2 text-decoration-none text-black ancor">Men’s Clothing</Link>
             <Link className="d-flex fw-bold fs-6 olx-color mb-3 angle_a text-decoration-none">
@@ -80,7 +80,7 @@ const PopularCategories = () => {
           </div>
           <div className="col-6 col-md-6 col-lg-3 d-flex flex-column">
             <div className="fw-bold fs-6 mb-2">
-              <img src="../../../../public/images/Linknimals.svg" alt="" className='me-1' width={16} /> Pets </div>
+              <img src="./images/Linknimals.svg" alt="" className='me-1' width={16} /> Pets </div>
             <Link className="mb-2 text-decoration-none text-black ancor">Birds - Pigeons</Link>
             <Link className="mb-2 text-decoration-none text-black ancor">Cats</Link>
             <Link className="d-flex fw-bold fs-6 olx-color mb-3 angle_a text-decoration-none">
@@ -90,7 +90,7 @@ const PopularCategories = () => {
           </div>
           <div className="col-6 col-md-6 col-lg-3 d-flex flex-column">
             <div className="fw-bold fs-6 mb-2">
-              <img src="../../../../public/images/kids.svg" alt="" className='me-1' width={16} /> Kids & Babies </div>
+              <img src="./images/kids.svg" alt="" className='me-1' width={16} /> Kids & Babies </div>
             <Link className="mb-2 text-decoration-none text-black ancor">Baby & Mom Healthcare</Link>
             <Link className="mb-2 text-decoration-none text-black ancor">Baby Clothing</Link>
             <Link className="d-flex fw-bold fs-6 olx-color mb-3 angle_a text-decoration-none">
@@ -100,7 +100,7 @@ const PopularCategories = () => {
           </div>
           <div className="col-6 col-md-6 col-lg-3 d-flex flex-column">
             <div className="fw-bold fs-6 mb-2">
-              <img src="../../../../public/images/bikes.svg" alt="" className='me-1' width={16} /> Hobbies </div>
+              <img src="./images/bikes.svg" alt="" className='me-1' width={16} /> Hobbies </div>
             <Link className="mb-2 text-decoration-none text-black ancor">Antiques - Collectibles</Link>
             <Link className="mb-2 text-decoration-none text-black ancor">Bicycles</Link>
             <Link className="d-flex fw-bold fs-6 olx-color mb-3 angle_a text-decoration-none">
@@ -110,7 +110,7 @@ const PopularCategories = () => {
           </div>
           <div className="col-6 col-md-6 col-lg-3 d-flex flex-column">
             <div className="fw-bold fs-6 mb-2">
-              <img src="../../../../public/images/business.svg" alt="" className='me-1' width={16} /> Businesses & Industrial </div>
+              <img src="./images/business.svg" alt="" className='me-1' width={16} /> Businesses & Industrial </div>
             <Link className="mb-2 text-decoration-none text-black ancor">Agriculture</Link>
             <Link className="mb-2 text-decoration-none text-black ancor">Construction</Link>
             <Link className="d-flex fw-bold fs-6 olx-color mb-3 angle_a text-decoration-none">
@@ -120,7 +120,7 @@ const PopularCategories = () => {
           </div>
           <div className="col-6 col-md-6 col-lg-3 d-flex flex-column">
             <div className="fw-bold fs-6 mb-2">
-              <img src="../../../../public/images/services.svg" alt="" className='me-1' width={16} /> Services </div>
+              <img src="./images/services.svg" alt="" className='me-1' width={16} /> Services </div>
             <Link className="mb-2 text-decoration-none text-black ancor">Business</Link>
             <Link className="mb-2 text-decoration-none text-black ancor">Car</Link>
             <Link className="d-flex fw-bold fs-6 olx-color mb-3 angle_a text-decoration-none">

@@ -3,14 +3,13 @@ import './Attributes.css';
 import { Container, Navbar } from 'react-bootstrap';
 import { AiOutlineArrowLeft } from 'react-icons/ai';
 import { MdArrowForwardIos } from 'react-icons/md';
-import { NavLink, useNavigate } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
 
 export default function Attributes() {
   const [data, setData] = useState({});
   const [selectedCategory, setSelectedCategory] = useState(null);
   const [subSubCategories, setSubSubCategories] = useState(null);
-  const navigate = useNavigate();
   useEffect(() => {
     fetch('categories.json')
       .then((response) => {
