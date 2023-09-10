@@ -3,6 +3,7 @@ import SearchSlider from './SearchSlider/SearchSlider';
 import SearchCards from './SearchCards/SearchCards';
 import SearchSideBar from './SearchSideBar/SearchSideBar';
 import './SearchPage.css'
+import { Helmet } from 'react-helmet-async';
 const SearchPage = () => {
     return (
         <>
